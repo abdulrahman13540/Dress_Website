@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar-last {
+    border-style: solid;
+    border-color: blue;
+    margin-right: 20px;
+}
+
+.head-right-container {
+    font-size: 25px;
+    text-align: center;
+}
+
+.img-top-right {
+    height: 150px;
+    border-style: solid;
+    border-radius: 100px;
+    border-color: blue;
+    margin: 27px;
+}
+
+.img-name-top-right {
+    font-size: 22px;
+    text-align: center;
+}
+
+.gallery {
+    font-size: 30px;
+}
+
+.img-slide {
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 0px;
+    height: 350px;
+    width: 400px;
+}
+
+.carousal-item img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.bg-bottom-home-container {
+    background-color: black;
+    background-size: cover;
+    color: white;
+}
+
+.bottom-link {
+    color: white;
+    margin: 15px;
+}
+
+.bottom-head {
+    font-size: 20px;
+}
+
+.head-top-section2 {
+    background-color:blue;
+    color: white;
+    text-align: center;
+}
+
+.img-polo {
+    height: 180px;
+    width: 150px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.polo-images-alignment {
+    margin: 100px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.img-category {
+    margin-left: 110px;
+}
+
+.shirt-names {
+    font-size: 20px;
+}
+
+.copyright-sentence {
+    color: white;
+    font-size: 20px;
+    margin: 5px
+}
+
+.copyright-bar {
+    background-color: blue;
+    background-size: cover;
+    text-align: center;
+}
+
+.navbar-text {
+    color: red;
+}
+
+.navbar-img {
+    height: 50px;
+}

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="C:\Users\HP\OneDrive\Pictures\Screenshots\logo.png"
+        class="navbar-img" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" onclick="display('section1')">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="display('sectionCategories')">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled navbar-last" href="#">Download Catalogue</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="section1">
+    <div class="container">
+      <div class="container-fluid">.
+        <div class="row">
+          <div class="col-7">
+          </div>
+          <div class="col-5">
+            <h1 class="mt-2 head-right-container"> Ready Stock </h1>
+            <div class="d-flex flex-row justify-content-center">
+              <div>
+                <a onclick="display('sectionpolo')"> <img
+                    src="https://5.imimg.com/data5/SELLER/Default/2022/12/OS/FS/AZ/141701636/polo-neck-t-shirt-for-women-men-1000x1000.png"
+                    class="img-top-right" /> </a>
+                <h1 class="img-name-top-right"> Polo Neck </h1>
+              </div>
+              <div>
+                <a onclick="display('section3')"> <img
+                    src="https://tse4.mm.bing.net/th/id/OIP._Yuglgi7bB2N6XePUP9UagHaHa?cb=ucfimgc2&amp;rs=1&amp;pid=ImgDetMain&amp;o=7&amp;rm=3"
+                    class="img-top-right" /> </a>
+                <h1 class="img-name-top-right"> Round Neck </h1>
+              </div>
+            </div>
+            <h1 class="mt-2 head-right-container mt-5"> On Demand </h1>
+            <div class="d-flex flex-row justify-content-center">
+              <div>
+                <a onclick="display('section4')"> <img
+                    src="https://i.etsystatic.com/13829481/r/il/f81bcb/2299284185/il_1588xN.2299284185_1oqh.jpg"
+                    class="img-top-right" /> </a>
+                <h1 class="img-name-top-right"> Custom T-Shirt </h1>
+              </div>
+              <div>
+                <a onclick="display('section5')"> <img
+                    src="https://4.imimg.com/data4/YA/RJ/MY-13416826/men-s-printed-t-shirt-500x500.jpg"
+                    class="img-top-right" /> </a>
+                <h1 class="img-name-top-right"> Printed T-Shirt </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h1 class="gallery mb-3"> Gallery </h1>
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide mb-5" data-ride="carousel">
+              <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-6 shadow">
+                      <img class="d-block w-100 img-slide"
+                        src="https://www.iiad.edu.in/wp-content/uploads/2023/05/img3.jpg" alt="First image">
+                    </div>
+                    <div class="col-6 shadow">
+                      <img class="d-block w-100 img-slide"
+                        src="https://tse1.mm.bing.net/th/id/OIP.O9ZhombG-0kjOZUYfr2XSgHaE8?cb=ucfimgc2&rs=1&pid=ImgDetMain&o=7&rm=3"
+                        alt="Second image">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-6 shadow">
+                      <img class="d-block w-100 img-slide"
+                        src="https://t3.ftcdn.net/jpg/04/28/58/24/360_F_428582488_vOC6zV7FG1G0u08khKhW1iEsYO9cRuwD.jpg"
+                        alt="Third image">
+                    </div>
+                    <div class="col-6 shadow">
+                      <img class="d-block w-100 img-slide"
+                        src="https://tfe-bd.sgp1.digitaloceanspaces.com/posts/57430/rmgordshftind.jpg"
+                        alt="Fourth image">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item ">
+                  <div class="row">
+                    <div class="col-6 shadow">
+                      <img class="d-block w-100 img-slide"
+                        src="https://bellissima-bd.com/wp-content/uploads/2023/08/IMG_1484-1620x1080.jpg"
+                        alt="Fifth image">
+                    </div>
+                    <div class="col-6 shadow">
+                      <img class="d-block w-100 img-slide"
+                        src="https://ninghow.com/wp-content/uploads/2024/05/clothing-manufacturers-in-india-1-1024x585.webp"
+                        alt="Sixth image">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="row bg-bottom-home-container">
+          <div class="col-3"></div>
+          <div class="col-3 d-flex flex-column justify-content-center">
+            <h1 class="bottom-head mt-3"> Useful Links </h1>
+            <a href="#" onclick="display('section1')" class="bottom-link m-2"> Home </a>
+            <a href="#" onclick="display('section1')" class="bottom-link m-2"> About Us </a>
+            <a href="#" onclick="display('section1')" class="bottom-link m-2"> Categories </a>
+          </div>
+          <div class="col-3 d-flex flex-column justify-content-center">
+            <h1 class="bottom-head mt-3"> Useful Links </h1>
+            <a href="#" onclick="display('section1')" class="bottom-link m-2"> Contact Us </a>
+            <a href="#" onclick="display('section1')" class="bottom-link m-2"> Terms and Conditions </a>
+            <a href="#" onclick="display('section1')" class="bottom-link m-2"> Privacy and Policy </a>
+          </div>
+          <div class="col-3 d-flex flex-column justify-content-center">
+            <h1 class="bottom-head mt-3"> Contact Us </h1>
+            <a href="#" onclick="display('section1')" class="bottom-link m-2"> Contact Us </a>
+            <a href="#" onclick="display('section1')" class="bottom-link m-2"> Terms and Conditions </a>
+            <a href="#" onclick="display('section1')" class="bottom-link m-2"> Privacy and Policy </a>
+          </div>
+          <div class="col-12 copyright-bar">
+            <h1 class="copyright-sentence"> © 2025 Eprilla T-Shirts. All rights reserved. </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="sectionCategories">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12">
+          <h1 class="head-top-section2 p-1"> Categories </h1>
+          <div class=" col-12 d-flex flex-row justify-content-center">
+            <div class="polo-images-alignment ml-0 mb-3 mt-5 shadow">
+              <a onclick="display('sectionpolo1')"> <img
+                  src="https://5.imimg.com/data5/SELLER/Default/2022/12/OS/FS/AZ/141701636/polo-neck-t-shirt-for-women-men-1000x1000.png"
+                  class="img-polo" /> </a>
+            </div>
+            <div class="polo-images-alignment mb-3 mt-5 shadow">
+              <a onclick="display('sectionpolo2')"> <img
+                  src="https://tse4.mm.bing.net/th/id/OIP._Yuglgi7bB2N6XePUP9UagHaHa?cb=ucfimgc2&amp;rs=1&amp;pid=ImgDetMain&amp;o=7&amp;rm=3"
+                  class="img-polo" /> </a>
+            </div>
+            <div class="polo-images-alignment mr-0 mb-3 mt-5 shadow">
+              <a onclick="display('sectionpolo3')"> <img
+                  src="https://i.etsystatic.com/13829481/r/il/f81bcb/2299284185/il_1588xN.2299284185_1oqh.jpg"
+                  class="img-polo" /> </a>
+            </div>
+          </div>
+          <div class=" col-12 d-flex flex-row justify-content-start text-center">
+            <div>
+              <div class="polo-images-alignment mb-3 mt-5 shadow img-category">
+                <a onclick="display('sectionpolo1')"> <img
+                    src="https://4.imimg.com/data4/YA/RJ/MY-13416826/men-s-printed-t-shirt-500x500.jpg"
+                    class="img-polo" /> </a>
+              </div>
+              <div class="text-center">
+                <h1 class="shirt-names text-center"> Printed </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row bg-bottom-home-container">
+        <div class="col-3"></div>
+        <div class="col-3 d-flex flex-column justify-content-center">
+          <h1 class="bottom-head mt-3"> Useful Links </h1>
+          <a href="#" onclick="display('section1')" class="bottom-link m-2"> Home </a>
+          <a href="#" onclick="display('section1')" class="bottom-link m-2"> About Us </a>
+          <a href="#" onclick="display('section1')" class="bottom-link m-2"> Categories </a>
+        </div>
+        <div class="col-3 d-flex flex-column justify-content-center">
+          <h1 class="bottom-head mt-3"> Useful Links </h1>
+          <a href="#" onclick="display('section1')" class="bottom-link m-2"> Contact Us </a>
+          <a href="#" onclick="display('section1')" class="bottom-link m-2"> Terms and Conditions </a>
+          <a href="#" onclick="display('section1')" class="bottom-link m-2"> Privacy and Policy </a>
+        </div>
+        <div class="col-3 d-flex flex-column justify-content-center">
+          <h1 class="bottom-head mt-3"> Contact Us </h1>
+          <a href="#" onclick="display('section1')" class="bottom-link m-2"> Contact Us </a>
+          <a href="#" onclick="display('section1')" class="bottom-link m-2"> Terms and Conditions </a>
+          <a href="#" onclick="display('section1')" class="bottom-link m-2"> Privacy and Policy </a>
+        </div>
+        <div class="col-12 copyright-bar">
+          <h1 class="copyright-sentence"> © 2025 Eprilla T-Shirts. All rights reserved. </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="sectionpolo">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mb-5">
+          <h1 class="head-top-section2"> Polo Neck </h1>
+          <div class=" col-12 d-flex flex-row justify-content-center">
+            <div class="polo-images-alignment ml-0 mb-3 mt-5 shadow">
+              <a onclick="display('sectionpoloimg1')"> <img
+                  src="https://raw.githubusercontent.com/abdulrahman13540/ShoppingWebsite/main/Dress%20shop%20Website/images/IMG_4719.JPG"
+                  class="img-polo" /> </a>
+            </div>
+            <div class="polo-images-alignment mb-3 mt-5 shadow">
+              <a onclick="display('sectionpolo2')"> <img
+                  src="https://raw.githubusercontent.com/abdulrahman13540/ShoppingWebsite/main/Dress%20shop%20Website/images/IMG_4737.JPG"
+                  class="img-polo" /> </a>
+            </div>
+            <div class="polo-images-alignment mr-0 mb-3 mt-5 shadow">
+              <a onclick="display('sectionpolo3')"> <img
+                  src="https://raw.githubusercontent.com/abdulrahman13540/ShoppingWebsite/main/Dress%20shop%20Website/images/IMG_4740.JPG"
+                  class="img-polo" /> </a>
+            </div>
+          </div>
+
+          <div class=" col-12 d-flex flex-row justify-content-center">
+            <div class="polo-images-alignment ml-0 mb-3 shadow mt-5">
+              <a onclick="display('sectionpolo1')"> <img
+                  src="https://raw.githubusercontent.com/abdulrahman13540/ShoppingWebsite/main/Dress%20shop%20Website/images/IMG_4744.JPG"
+                  class="img-polo" /> </a>
+            </div>
+            <div class="polo-images-alignment mb-3 mt-5 shadow">
+              <a onclick="display('sectionpolo2')"> <img
+                  src="https://raw.githubusercontent.com/abdulrahman13540/ShoppingWebsite/main/Dress%20shop%20Website/images/IMG_4749.JPG"
+                  class="img-polo" />
+              </a>
+            </div>
+            <div class="polo-images-alignment mr-0 mb-3 mt-5 shadow">
+              <a onclick="display('sectionpolo3')"> <img
+                  src="https://raw.githubusercontent.com/abdulrahman13540/ShoppingWebsite/main/Dress%20shop%20Website/images/IMG_4754.JPG"
+                  class="img-polo" /> </a>
+            </div>
+          </div>
+
+          <div class=" col-12 d-flex flex-row justify-content-center">
+            <div class="polo-images-alignment ml-0 mb-3 mt-5 shadow">
+              <a onclick="display('sectionpolo1')"> <img
+                  src="https://raw.githubusercontent.com/abdulrahman13540/ShoppingWebsite/main/Dress%20shop%20Website/images/IMG_4758.JPG"
+                  class="img-polo" /> </a>
+            </div>
+            <div class="polo-images-alignment mb-3 mt-5 shadow">
+              <a onclick="display('sectionpolo2')"> <img
+                  src="https://raw.githubusercontent.com/abdulrahman13540/ShoppingWebsite/main/Dress%20shop%20Website/images/IMG_4762.JPG"
+                  class="img-polo" /> </a>
+            </div>
+            <div class="polo-images-alignment mr-0 mb-3 mt-5 shadow">
+              <a onclick="display('sectionpolo3')"> <img
+                  src="https://raw.githubusercontent.com/abdulrahman13540/ShoppingWebsite/main/Dress%20shop%20Website/images/IMG_4769.JPG"
+                  class="img-polo" /> </a>
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script type="text/javascript"
+    src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
