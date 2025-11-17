@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
-.navbar-last {
-    border-style: solid;
-    border-color: blue;
-    margin-right: 20px;
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
 }
 
 .head-right-container {
     font-size: 25px;
     text-align: center;
+    color: #5b422e;
 }
 
 .img-top-right {
     height: 150px;
     border-style: solid;
-    border-radius: 100px;
-    border-color: blue;
+    border-radius: 10px;
+    border-color: #5b422e;
     margin: 27px;
 }
 
@@ -32,8 +36,7 @@
     border-style: solid;
     border-radius: 15px;
     border-width: 0px;
-    height: 350px;
-    width: 400px;
+    
 }
 
 .carousal-item img {
@@ -45,23 +48,23 @@
 }
 
 .bg-bottom-home-container {
-    background-color: black;
+    background-color: #5b422b;
     background-size: cover;
     color: white;
 }
 
 .bottom-link {
-    color: white;
+    color: #f9f2cb;
     margin: 15px;
 }
 
 .bottom-head {
     font-size: 20px;
+    color: #f9f2cb;
 }
 
 .head-top-section2 {
-    background-color:blue;
-    color: white;
+    color: #5b422e;
     text-align: center;
 }
 
@@ -76,7 +79,7 @@
 .polo-images-alignment {
     margin: 100px;
     border-style: solid;
-    border-color: blue;
+    border-color: #5b422e;
     border-width: 1px;
     border-radius: 10px;
 }
@@ -90,13 +93,13 @@
 }
 
 .copyright-sentence {
-    color: white;
+    color: #000000;
     font-size: 20px;
     margin: 5px
 }
 
 .copyright-bar {
-    background-color: blue;
+    background-color: #f9f2cb;
     background-size: cover;
     text-align: center;
 }
@@ -106,5 +109,15 @@
 }
 
 .navbar-img {
-    height: 50px;
+    height: 100px;
+}
+
+.nav-color {
+    background-color: #f9f2cb;
+    background-size: cover;
+}
+
+.nav-options {
+    color: #5b422e;
+    font-size: 20px;
 }
