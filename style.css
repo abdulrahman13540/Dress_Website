@@ -36,7 +36,7 @@
     border-style: solid;
     border-radius: 15px;
     border-width: 0px;
-    
+
 }
 
 .carousal-item img {
@@ -120,4 +120,405 @@
 .nav-options {
     color: #5b422e;
     font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* --- IMAGE GALLERY --- */
+.gallery-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.main-image {
+    width: 380px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.thumbs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.thumbs img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    object-fit: cover;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+#img1:checked~.gallery-content #main1,
+#img2:checked~.gallery-content #main2,
+#img3:checked~.gallery-content #main3,
+#img4:checked~.gallery-content #main4 {
+    display: block;
+}
+
+.main-image-box img {
+    display: none;
+}
+
+/* --- ACTIVE THUMBNAIL BORDER --- */
+#img1:checked~.thumbs-wrapper label[for=img1] img,
+#img2:checked~.thumbs-wrapper label[for=img2] img,
+#img3:checked~.thumbs-wrapper label[for=img3] img,
+#img4:checked~.thumbs-wrapper label[for=img4] img {
+    border-color: black;
+}
+
+/* --- COLOR SELECTION --- */
+.color-select input {
+    display: none;
+}
+
+.color-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid #bbb;
+}
+
+#c1:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#c2:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+/* --- SIZE BUTTONS --- */
+.size-select input {
+    display: none;
+}
+
+.size-label {
+    border: 1px solid black;
+    padding: 7px 14px;
+    border-radius: 8px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.size-select input:checked+label {
+    background: #5b422e;
+    color: white;
+}
+
+/* --- TABS --- */
+.tabs input {
+    display: none;
+}
+
+.tab-label {
+    margin-right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.tabs input:checked+label {
+    border-bottom: 3px solid black;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 20px;
+}
+
+.btn-style {
+    background-color: #5b422e;
+    color:#fff;
+    border-radius: 4px;
+    background-size: cover;
+    border-width: 1px;
+}
+
+.btn-color-change {
+    border-color:#000000;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.btn-color-change:hover {
+    background-color: #5b422e;
+    color:#fff;
+}
+
+#tab1:checked~#content1,
+#tab2:checked~#content2,
+#tab3:checked~#content3 {
+    display: block;
+}
+
+/* Show correct main image when radio is checked */
+#img1:checked~.gallery-wrapper .main-image-box #main1 {
+    display: block;
+}
+
+#img2:checked~.gallery-wrapper .main-image-box #main2 {
+    display: block;
+}
+
+#img3:checked~.gallery-wrapper .main-image-box #main3 {
+    display: block;
+}
+
+#img4:checked~.gallery-wrapper .main-image-box #main4 {
+    display: block;
+}
+
+
+
+
+
+#img1-2:checked~.gallery-wrapper .main-image-box #main1-2 {
+    display: block;
+}
+
+#img2-2:checked~.gallery-wrapper .main-image-box #main2-2 {
+    display: block;
+}
+
+#c1-2:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#c2-2:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-2:checked~#content1-2,
+#tab2-2:checked~#content2-2,
+#tab3-2:checked~#content3-2 {
+    display: block;
+}
+
+
+#img1-3:checked~.gallery-wrapper .main-image-box #main1-3 {
+    display: block;
+}
+
+#img2-3:checked~.gallery-wrapper .main-image-box #main2-3 {
+    display: block;
+}
+
+#c1-3:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#c2-3:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-3:checked~#content1-3,
+#tab2-3:checked~#content2-3,
+#tab3-3:checked~#content3-3 {
+    display: block;
+}
+
+
+#img1-4:checked~.gallery-wrapper .main-image-box #main1-4 {
+    display: block;
+}
+
+#img2-4:checked~.gallery-wrapper .main-image-box #main2-4 {
+    display: block;
+}
+
+#c1-4:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#c2-4:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-4:checked~#content1-4,
+#tab2-4:checked~#content2-4,
+#tab3-4:checked~#content3-4 {
+    display: block;
+}
+
+
+
+#img1-5:checked~.gallery-wrapper .main-image-box #main1-5 {
+    display: block;
+}
+
+#img2-5:checked~.gallery-wrapper .main-image-box #main2-5 {
+    display: block;
+}
+
+#img3-5:checked~.gallery-wrapper .main-image-box #main3-5 {
+    display: block;
+}
+
+#img4-5:checked~.gallery-wrapper .main-image-box #main4-5 {
+    display: block;
+}
+
+#img5-5:checked~.gallery-wrapper .main-image-box #main5-5 {
+    display: block;
+}
+
+#c1-5:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#c2-5:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-5:checked~#content1-5,
+#tab2-5:checked~#content2-5,
+#tab3-5:checked~#content3-5 {
+    display: block;
+}
+
+
+
+#img1-6:checked~.gallery-wrapper .main-image-box #main1-6 {
+    display: block;
+}
+
+#img2-6:checked~.gallery-wrapper .main-image-box #main2-6 {
+    display: block;
+}
+
+#img3-6:checked~.gallery-wrapper .main-image-box #main3-6 {
+    display: block;
+}
+
+#img4-6:checked~.gallery-wrapper .main-image-box #main4-6 {
+    display: block;
+}
+
+#c1-6:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#c2-6:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-6:checked~#content1-6,
+#tab2-6:checked~#content2-6,
+#tab3-6:checked~#content3-6 {
+    display: block;
+}
+
+
+
+
+#img1-7:checked~.gallery-wrapper .main-image-box #main1-7 {
+    display: block;
+}
+
+#img2-7:checked~.gallery-wrapper .main-image-box #main2-7 {
+    display: block;
+}
+
+#img3-7:checked~.gallery-wrapper .main-image-box #main3-7 {
+    display: block;
+}
+
+#img4-7:checked~.gallery-wrapper .main-image-box #main4-7 {
+    display: block;
+}
+
+#img5-7:checked~.gallery-wrapper .main-image-box #main5-7 {
+    display: block;
+}
+
+#c1-7:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#c2-7:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-7:checked~#content1-7,
+#tab2-7:checked~#content2-7,
+#tab3-7:checked~#content3-7 {
+    display: block;
+}
+
+
+
+#img1-8:checked~.gallery-wrapper .main-image-box #main1-8 {
+    display: block;
+}
+
+#img2-8:checked~.gallery-wrapper .main-image-box #main2-8 {
+    display: block;
+}
+
+#img3-8:checked~.gallery-wrapper .main-image-box #main3-8 {
+    display: block;
+}
+
+#img4-8:checked~.gallery-wrapper .main-image-box #main4-8 {
+    display: block;
+}
+
+#img5-8:checked~.gallery-wrapper .main-image-box #main5-8 {
+    display: block;
+}
+
+#c1-8:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#c2-8:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-8:checked~#content1-8,
+#tab2-8:checked~#content2-8,
+#tab3-8:checked~#content3-8 {
+    display: block;
+}
+
+
+
+#img1-9:checked~.gallery-wrapper .main-image-box #main1-9 {
+    display: block;
+}
+
+#img2-9:checked~.gallery-wrapper .main-image-box #main2-9 {
+    display: block;
+}
+
+#img3-9:checked~.gallery-wrapper .main-image-box #main3-9 {
+    display: block;
+}
+
+#c1-9:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#c2-9:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-9:checked~#content1-9,
+#tab2-9:checked~#content2-9,
+#tab3-9:checked~#content3-9 {
+    display: block;
 }
