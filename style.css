@@ -689,3 +689,394 @@ input[type=radio] {
 #tab3-15:checked~#content3-15 {
     display: block;
 }
+
+
+.img-col-6 {
+    height: 400px;
+    border-radius: 10px;
+}
+
+#c1-16:checked+label .color-circle,
+#c2-16:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-16:checked~#content1-16,
+#tab2-16:checked~#content2-16,
+#tab3-16:checked~#content3-16 {
+    display: block;
+}
+
+
+
+#c1-17:checked + label .color-circle,
+#c2-17:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-17:checked ~ #content1-17,
+#tab2-17:checked ~ #content2-17,
+#tab3-17:checked ~ #content3-17 {
+    display: block;
+}
+
+
+
+#c1-18:checked + label .color-circle,
+#c2-18:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-18:checked ~ #content1-18,
+#tab2-18:checked ~ #content2-18,
+#tab3-18:checked ~ #content3-18 {
+    display: block;
+}
+
+
+
+
+#c1-19:checked + label .color-circle,
+#c2-19:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-19:checked ~ #content1-19,
+#tab2-19:checked ~ #content2-19,
+#tab3-19:checked ~ #content3-19 {
+    display: block;
+}
+
+
+
+
+#c1-20:checked + label .color-circle,
+#c2-20:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-20:checked ~ #content1-20,
+#tab2-20:checked ~ #content2-20,
+#tab3-20:checked ~ #content3-20 {
+    display: block;
+}
+
+
+
+
+#c1-21:checked + label .color-circle,
+#c2-21:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-21:checked ~ #content1-21,
+#tab2-21:checked ~ #content2-21,
+#tab3-21:checked ~ #content3-21 {
+    display: block;
+}
+
+
+
+
+#c1-22:checked + label .color-circle,
+#c2-22:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-22:checked ~ #content1-22,
+#tab2-22:checked ~ #content2-22,
+#tab3-22:checked ~ #content3-22 {
+    display: block;
+}
+
+
+
+
+#c1-23:checked + label .color-circle,
+#c2-23:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-23:checked ~ #content1-23,
+#tab2-23:checked ~ #content2-23,
+#tab3-23:checked ~ #content3-23 {
+    display: block;
+}
+
+
+
+
+#c1-24:checked + label .color-circle,
+#c2-24:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-24:checked ~ #content1-24,
+#tab2-24:checked ~ #content2-24,
+#tab3-24:checked ~ #content3-24 {
+    display: block;
+}
+
+
+
+
+#c1-25:checked + label .color-circle,
+#c2-25:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-25:checked ~ #content1-25,
+#tab2-25:checked ~ #content2-25,
+#tab3-25:checked ~ #content3-25 {
+    display: block;
+}
+
+
+
+
+#c1-26:checked + label .color-circle,
+#c2-26:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-26:checked ~ #content1-26,
+#tab2-26:checked ~ #content2-26,
+#tab3-26:checked ~ #content3-26 {
+    display: block;
+}
+
+/* SECTION 27 */
+#img1-27:checked~.gallery-wrapper .main-image-box #main1-27 {
+    display: block;
+}
+
+#img2-27:checked~.gallery-wrapper .main-image-box #main2-27 {
+    display: block;
+}
+
+#c1-27:checked + label .color-circle,
+#c2-27:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-27:checked ~ #content1-27,
+#tab2-27:checked ~ #content2-27,
+#tab3-27:checked ~ #content3-27 {
+    display: block;
+}
+
+/* SECTION 28 */
+#c1-28:checked + label .color-circle,
+#c2-28:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-28:checked ~ #content1-28,
+#tab2-28:checked ~ #content2-28,
+#tab3-28:checked ~ #content3-28 {
+    display: block;
+}
+
+/* SECTION 29 */
+#c1-29:checked + label .color-circle,
+#c2-29:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-29:checked ~ #content1-29,
+#tab2-29:checked ~ #content2-29,
+#tab3-29:checked ~ #content3-29 {
+    display: block;
+}
+
+/* SECTION 30 */
+#c1-30:checked + label .color-circle,
+#c2-30:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-30:checked ~ #content1-30,
+#tab2-30:checked ~ #content2-30,
+#tab3-30:checked ~ #content3-30 {
+    display: block;
+}
+
+/* SECTION 31 */
+#c1-31:checked + label .color-circle,
+#c2-31:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-31:checked ~ #content1-31,
+#tab2-31:checked ~ #content2-31,
+#tab3-31:checked ~ #content3-31 {
+    display: block;
+}
+
+/* SECTION 32 */
+#c1-32:checked + label .color-circle,
+#c2-32:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-32:checked ~ #content1-32,
+#tab2-32:checked ~ #content2-32,
+#tab3-32:checked ~ #content3-32 {
+    display: block;
+}
+
+/* SECTION 33 */
+#c1-33:checked + label .color-circle,
+#c2-33:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-33:checked ~ #content1-33,
+#tab2-33:checked ~ #content2-33,
+#tab3-33:checked ~ #content3-33 {
+    display: block;
+}
+
+/* SECTION 34 */
+#c1-34:checked + label .color-circle,
+#c2-34:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-34:checked ~ #content1-34,
+#tab2-34:checked ~ #content2-34,
+#tab3-34:checked ~ #content3-34 {
+    display: block;
+}
+
+/* SECTION 35 */
+#c1-35:checked + label .color-circle,
+#c2-35:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-35:checked ~ #content1-35,
+#tab2-35:checked ~ #content2-35,
+#tab3-35:checked ~ #content3-35 {
+    display: block;
+}
+
+/* SECTION 36 */
+#c1-36:checked + label .color-circle,
+#c2-36:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-36:checked ~ #content1-36,
+#tab2-36:checked ~ #content2-36,
+#tab3-36:checked ~ #content3-36 {
+    display: block;
+}
+
+/* SECTION 37 */
+#c1-37:checked + label .color-circle,
+#c2-37:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-37:checked ~ #content1-37,
+#tab2-37:checked ~ #content2-37,
+#tab3-37:checked ~ #content3-37 {
+    display: block;
+}
+
+/* SECTION 38 */
+#c1-38:checked + label .color-circle,
+#c2-38:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-38:checked ~ #content1-38,
+#tab2-38:checked ~ #content2-38,
+#tab3-38:checked ~ #content3-38 {
+    display: block;
+}
+
+/* SECTION 39 */
+#c1-39:checked + label .color-circle,
+#c2-39:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-39:checked ~ #content1-39,
+#tab2-39:checked ~ #content2-39,
+#tab3-39:checked ~ #content3-39 {
+    display: block;
+}
+
+/* SECTION 40 */
+#c1-40:checked + label .color-circle,
+#c2-40:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-40:checked ~ #content1-40,
+#tab2-40:checked ~ #content2-40,
+#tab3-40:checked ~ #content3-40 {
+    display: block;
+}
+
+/* SECTION 41 */
+#c1-41:checked + label .color-circle,
+#c2-41:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-41:checked ~ #content1-41,
+#tab2-41:checked ~ #content2-41,
+#tab3-41:checked ~ #content3-41 {
+    display: block;
+}
+
+/* SECTION 42 */
+#c1-42:checked + label .color-circle,
+#c2-42:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-42:checked ~ #content1-42,
+#tab2-42:checked ~ #content2-42,
+#tab3-42:checked ~ #content3-42 {
+    display: block;
+}
+
+/* SECTION 43 */
+#c1-43:checked + label .color-circle,
+#c2-43:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-43:checked ~ #content1-43,
+#tab2-43:checked ~ #content2-43,
+#tab3-43:checked ~ #content3-43 {
+    display: block;
+}
+
+/* SECTION 44 */
+#c1-44:checked + label .color-circle,
+#c2-44:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-44:checked ~ #content1-44,
+#tab2-44:checked ~ #content2-44,
+#tab3-44:checked ~ #content3-44 {
+    display: block;
+}
+
+/* SECTION 45 */
+#c1-45:checked + label .color-circle,
+#c2-45:checked + label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-45:checked ~ #content1-45,
+#tab2-45:checked ~ #content2-45,
+#tab3-45:checked ~ #content3-45 {
+    display: block;
+}
