@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 .carousel-item {
-    height: 400px;
+    height: 480px;
 }
 
 .carousel-item img {
@@ -36,7 +36,7 @@
     border-style: solid;
     border-radius: 15px;
     border-width: 0px;
-
+    object-fit: cover;
 }
 
 .carousal-item img {
@@ -242,21 +242,21 @@ input[type=radio] {
 
 .btn-style {
     background-color: #5b422e;
-    color:#fff;
+    color: #fff;
     border-radius: 4px;
     background-size: cover;
     border-width: 1px;
 }
 
 .btn-color-change {
-    border-color:#000000;
+    border-color: #000000;
     border-width: 1px;
     border-radius: 4px;
 }
 
 .btn-color-change:hover {
     background-color: #5b422e;
-    color:#fff;
+    color: #fff;
 }
 
 #tab1:checked~#content1,
@@ -520,5 +520,172 @@ input[type=radio] {
 #tab1-9:checked~#content1-9,
 #tab2-9:checked~#content2-9,
 #tab3-9:checked~#content3-9 {
+    display: block;
+}
+
+
+
+
+#img1-10:checked~.gallery-wrapper .main-image-box #main1-10 {
+    display: block;
+}
+
+#img2-10:checked~.gallery-wrapper .main-image-box #main2-10 {
+    display: block;
+}
+
+#img3-10:checked~.gallery-wrapper .main-image-box #main3-10 {
+    display: block;
+}
+
+#img4-10:checked~.gallery-wrapper .main-image-box #main4-10 {
+    display: block;
+}
+
+#img5-10:checked~.gallery-wrapper .main-image-box #main5-10 {
+    display: block;
+}
+
+#c1-10:checked+label .color-circle,
+#c2-10:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-10:checked~#content1-10,
+#tab2-10:checked~#content2-10,
+#tab3-10:checked~#content3-10 {
+    display: block;
+}
+
+
+/* SECTION 11 */
+#img1-11:checked~.gallery-wrapper .main-image-box #main1-11 {
+    display: block;
+}
+
+#img2-11:checked~.gallery-wrapper .main-image-box #main2-11 {
+    display: block;
+}
+
+#img3-11:checked~.gallery-wrapper .main-image-box #main3-11 {
+    display: block;
+}
+
+#img4-11:checked~.gallery-wrapper .main-image-box #main4-11 {
+    display: block;
+}
+
+#c1-11:checked+label .color-circle,
+#c2-11:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-11:checked~#content1-11,
+#tab2-11:checked~#content2-11,
+#tab3-11:checked~#content3-11 {
+    display: block;
+}
+
+
+/* SECTION 12 */
+#img1-12:checked~.gallery-wrapper .main-image-box #main1-12 {
+    display: block;
+}
+
+#img2-12:checked~.gallery-wrapper .main-image-box #main2-12 {
+    display: block;
+}
+
+#img3-12:checked~.gallery-wrapper .main-image-box #main3-12 {
+    display: block;
+}
+
+#c1-12:checked+label .color-circle,
+#c2-12:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-12:checked~#content1-12,
+#tab2-12:checked~#content2-12,
+#tab3-12:checked~#content3-12 {
+    display: block;
+}
+
+
+/* SECTION 13 */
+#img1-13:checked~.gallery-wrapper .main-image-box #main1-13 {
+    display: block;
+}
+
+#img2-13:checked~.gallery-wrapper .main-image-box #main2-13 {
+    display: block;
+}
+
+#img3-13:checked~.gallery-wrapper .main-image-box #main3-13 {
+    display: block;
+}
+
+#img4-13:checked~.gallery-wrapper .main-image-box #main4-13 {
+    display: block;
+}
+
+#img5-13:checked~.gallery-wrapper .main-image-box #main5-13 {
+    display: block;
+}
+
+#c1-13:checked+label .color-circle,
+#c2-13:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-13:checked~#content1-13,
+#tab2-13:checked~#content2-13,
+#tab3-13:checked~#content3-13 {
+    display: block;
+}
+
+
+/* SECTION 14 */
+#img1-14:checked~.gallery-wrapper .main-image-box #main1-14 {
+    display: block;
+}
+
+#img2-14:checked~.gallery-wrapper .main-image-box #main2-14 {
+    display: block;
+}
+
+#c1-14:checked+label .color-circle,
+#c2-14:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-14:checked~#content1-14,
+#tab2-14:checked~#content2-14,
+#tab3-14:checked~#content3-14 {
+    display: block;
+}
+
+
+/* SECTION 15 */
+#img1-15:checked~.gallery-wrapper .main-image-box #main1-15 {
+    display: block;
+}
+
+#img2-15:checked~.gallery-wrapper .main-image-box #main2-15 {
+    display: block;
+}
+
+#img3-15:checked~.gallery-wrapper .main-image-box #main3-15 {
+    display: block;
+}
+
+#c1-15:checked+label .color-circle,
+#c2-15:checked+label .color-circle {
+    border: 3px solid black;
+}
+
+#tab1-15:checked~#content1-15,
+#tab2-15:checked~#content2-15,
+#tab3-15:checked~#content3-15 {
     display: block;
 }
