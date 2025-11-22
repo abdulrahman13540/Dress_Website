@@ -680,3 +680,31 @@ input[type=radio] {
 #img1-45:checked~.gallery-wrapper .main-image-box #main1-45 {
     display: block;
 }
+
+
+
+.form-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #5b422e;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #5b422e;
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: #3b2a1e;
+}
