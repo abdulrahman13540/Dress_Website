@@ -377,45 +377,67 @@ input[type=radio] {
 
 /* ===================== Section 5 ===================== */
 #img1-5:checked~.gallery-wrapper .thumbs-wrapper label[for=img1-5] img,
-#img2-5:checked~.gallery-wrapper .thumbs-wrapper label[for=img2-5] img {
+#img2-5:checked~.gallery-wrapper .thumbs-wrapper label[for=img2-5] img,
+#img3-5:checked~.gallery-wrapper .thumbs-wrapper label[for=img3-5] img,
+#img4-5:checked~.gallery-wrapper .thumbs-wrapper label[for=img4-5] img,
+#img5-5:checked~.gallery-wrapper .thumbs-wrapper label[for=img5-5] img {
     border-color: black;
 }
 
 #img1-5:checked~.gallery-wrapper .main-image-box #main1-5,
-#img2-5:checked~.gallery-wrapper .main-image-box #main2-5 {
+#img2-5:checked~.gallery-wrapper .main-image-box #main2-5,
+#img3-5:checked~.gallery-wrapper .main-image-box #main3-5,
+#img4-5:checked~.gallery-wrapper .main-image-box #main4-5,
+#img5-5:checked~.gallery-wrapper .main-image-box #main5-5 {
     display: block;
 }
 
 /* ===================== Section 6 ===================== */
 #img1-6:checked~.gallery-wrapper .thumbs-wrapper label[for=img1-6] img,
-#img2-6:checked~.gallery-wrapper .thumbs-wrapper label[for=img2-6] img {
+#img2-6:checked~.gallery-wrapper .thumbs-wrapper label[for=img2-6] img,
+#img3-6:checked~.gallery-wrapper .thumbs-wrapper label[for=img3-6] img,
+#img4-6:checked~.gallery-wrapper .thumbs-wrapper label[for=img4-6] img {
     border-color: black;
 }
 
 #img1-6:checked~.gallery-wrapper .main-image-box #main1-6,
-#img2-6:checked~.gallery-wrapper .main-image-box #main2-6 {
+#img2-6:checked~.gallery-wrapper .main-image-box #main2-6,
+#img3-6:checked~.gallery-wrapper .main-image-box #main3-6,
+#img4-6:checked~.gallery-wrapper .main-image-box #main4-6 {
     display: block;
 }
 
 /* ===================== Section 7 ===================== */
 #img1-7:checked~.gallery-wrapper .thumbs-wrapper label[for=img1-7] img,
-#img2-7:checked~.gallery-wrapper .thumbs-wrapper label[for=img2-7] img {
+#img2-7:checked~.gallery-wrapper .thumbs-wrapper label[for=img2-7] img,
+#img3-7:checked~.gallery-wrapper .thumbs-wrapper label[for=img3-7] img,
+#img4-7:checked~.gallery-wrapper .thumbs-wrapper label[for=img4-7] img,
+#img5-7:checked~.gallery-wrapper .thumbs-wrapper label[for=img5-7] img {
     border-color: black;
 }
 
 #img1-7:checked~.gallery-wrapper .main-image-box #main1-7,
-#img2-7:checked~.gallery-wrapper .main-image-box #main2-7 {
+#img2-7:checked~.gallery-wrapper .main-image-box #main2-7,
+#img3-7:checked~.gallery-wrapper .main-image-box #main3-7,
+#img4-7:checked~.gallery-wrapper .main-image-box #main4-7,
+#img5-7:checked~.gallery-wrapper .main-image-box #main5-7 {
     display: block;
 }
 
 /* ===================== Section 8 ===================== */
 #img1-8:checked~.gallery-wrapper .thumbs-wrapper label[for=img1-8] img,
-#img2-8:checked~.gallery-wrapper .thumbs-wrapper label[for=img2-8] img {
+#img2-8:checked~.gallery-wrapper .thumbs-wrapper label[for=img2-8] img,
+#img3-8:checked~.gallery-wrapper .thumbs-wrapper label[for=img3-8] img,
+#img4-8:checked~.gallery-wrapper .thumbs-wrapper label[for=img4-8] img,
+#img5-8:checked~.gallery-wrapper .thumbs-wrapper label[for=img5-8] img {
     border-color: black;
 }
 
 #img1-8:checked~.gallery-wrapper .main-image-box #main1-8,
-#img2-8:checked~.gallery-wrapper .main-image-box #main2-8 {
+#img2-8:checked~.gallery-wrapper .main-image-box #main2-8,
+#img3-8:checked~.gallery-wrapper .main-image-box #main3-8,
+#img4-8:checked~.gallery-wrapper .main-image-box #main4-8,
+#img5-8:checked~.gallery-wrapper .main-image-box #main5-8 {
     display: block;
 }
 
